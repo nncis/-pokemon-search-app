@@ -1,2 +1,2 @@
-# -pokemon-search-app
+# pokemon-search-app
 A freeCodeCamp project.
