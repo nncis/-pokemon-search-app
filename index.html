@@ -5,6 +5,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>pokemon search app</title>
 	<link rel="stylesheet" href="./styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
 </head>
 <body>
 	<main class="pokedex">
@@ -28,11 +31,11 @@
 					<span></span>
 				</div>
 				<div class="little-red-button"></div>
-				<div class="litle-green-screen">
-					<input id="search-input" placeholder="Enter pokemon" autocomplete="off" required>
-				</div>
+				<form role="search" id="search-form">
+					<input type="text" name="pokemon" id="search-input" required>
+					<button id="search-button" class="button-black" type="submit"></button>
+				</form>
 			</div>
-			<button id="search-button" class="button-black"></button>
 			<div class="blue-red-buttons">
 				<div class="blue-button"></div>
 				<div class="red-button"></div>
@@ -56,14 +59,32 @@
 					<p id="pokemon-id"></p>
 				</div>
 				<div id="types"></div>
-				<div id="stats">
-					<p id="hp"></p>
-					<p id="attack"></p>
-					<p id="defense"></p>
-					<p id="special-attack"></p>
-					<p id="special-defense"></p>
-					<p id="speed"></p>
-				</div>
+				<table id="stats">
+					<tr>
+						<td class="table-name-stat"></td>
+						<td id="hp" class="table-stats"></td>
+					</tr>
+					<tr>
+						<td class="table-name-stat"></td>
+						<td id="attack" class="table-stats"></td>
+					</tr>
+					<tr>
+						<td class="table-name-stat"></td>
+						<td id="defense" class="table-stats"></td>
+					</tr>
+					<tr>
+						<td class="table-name-stat"></td>
+						<td id="special-attack" class="table-stats"></td>
+					</tr>
+					<tr>
+						<td class="table-name-stat"></td>
+						<td id="special-defense" class="table-stats"></td>
+					</tr>
+					<tr>
+						<td class="table-name-stat"></td>
+						<td id="speed" class="table-stats"></td>
+					</tr>
+                </table>
 			</div>
 			<div class="group-blue-buttons">
 				<span></span>
