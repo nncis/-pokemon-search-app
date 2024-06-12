@@ -85,7 +85,7 @@ const searchPokemon = async () => {
         const { name, id, weight, height, types, stats, sprites: { front_default } } = data;
 
         showTypes(types);
-        showPokemonNameAndId(name, id)
+        showPokemonNameAndId(name, id);
         showPokemonImg(front_default);
         showStats(stats, weight, height);
 

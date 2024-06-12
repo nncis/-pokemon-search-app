@@ -269,6 +269,8 @@ main {
     top: 108%;
     left: 0%;
     box-shadow: 2px -2px 5px 0px rgba(0, 0, 0, 0.66) inset, 0px 0px 2px 1px rgba(0, 0, 0, 0.66) inset, -1px 1px 1px 0px rgba(0, 0, 0, 0.66);
+	color: grey;
+	font-size: 1.4rem;
 }
 
 .blue-red-buttons {
